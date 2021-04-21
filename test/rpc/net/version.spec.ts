@@ -1,5 +1,5 @@
 import tape from 'tape'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { startRPC, createManager, createClient, baseSetup, params, baseRequest } from '../helpers'
 
 const method = 'net_version'

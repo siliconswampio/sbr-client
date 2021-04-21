@@ -33,7 +33,7 @@ tape('[RlpxServer]', async (t) => {
   DPT.prototype.bind = td.func<any>()
   DPT.prototype.getDnsPeers = td.func<any>()
 
-  td.replace('@ethereumjs/devp2p', { DPT, RLPx })
+  td.replace('@sbr/devp2p', { DPT, RLPx })
 
   const { RlpxServer } = await import('../../../lib/net/server/rlpxserver')
 

@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events'
 import tape from 'tape-catch'
 import td from 'testdouble'
-import { ETH as Devp2pETH } from '@ethereumjs/devp2p'
+import { ETH as Devp2pETH } from '@sbr/devp2p'
 import { RlpxSender } from '../../../lib/net/protocol'
 
 tape('[RlpxSender]', (t) => {

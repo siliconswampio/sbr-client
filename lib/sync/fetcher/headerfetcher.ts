@@ -1,9 +1,9 @@
 import { BlockFetcherBase, BlockFetcherOptions, JobTask } from './blockfetcherbase'
 import { Peer } from '../../net/peer'
 import { FlowControl, LesProtocolMethods } from '../../net/protocol'
-import { BlockHeader } from '@ethereumjs/block'
+import { BlockHeader } from '@sbr/block'
 import { Job } from './types'
-import { BN } from 'ethereumjs-util'
+import { BN } from 'sbr-util'
 
 export interface HeaderFetcherOptions extends BlockFetcherOptions {
   /* Flow control manager */

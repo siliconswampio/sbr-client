@@ -1,9 +1,9 @@
 import { Execution, ExecutionOptions } from './execution'
 import { short } from '../../util'
-import VM from '@ethereumjs/vm'
-import { DefaultStateManager } from '@ethereumjs/vm/dist/state'
-import { SecureTrie as Trie } from 'merkle-patricia-tree'
-import { Block } from '@ethereumjs/block'
+import VM from '@sbr/vm'
+import { DefaultStateManager } from '@sbr/vm/dist/state'
+import { SecureTrie as Trie } from 'sbr-merkle-patricia-tree'
+import { Block } from '@sbr/block'
 import { debugCodeReplayBlock } from '../../util/debug'
 
 export class VMExecution extends Execution {

@@ -4,7 +4,7 @@ import { EthProtocol } from '../../lib/net/protocol'
 import { PeerPool } from '../../lib/net/peerpool'
 import MockServer from './mocks/mockserver'
 import MockChain from './mocks/mockchain'
-import Blockchain from '@ethereumjs/blockchain'
+import Blockchain from '@sbr/blockchain'
 
 tape('[Integration:PeerPool]', async (t) => {
   async function setup(protocols: EthProtocol[] = []): Promise<[MockServer, PeerPool]> {

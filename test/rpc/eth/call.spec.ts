@@ -1,7 +1,7 @@
 import tape from 'tape'
-import { Address, BN, bufferToHex } from 'ethereumjs-util'
-import Blockchain from '@ethereumjs/blockchain'
-import { Transaction } from '@ethereumjs/tx'
+import { Address, BN, bufferToHex } from 'sbr-util'
+import Blockchain from '@sbr/blockchain'
+import { Transaction } from '@sbr/tx'
 import { FullSynchronizer } from '../../../lib/sync'
 import { startRPC, createManager, createClient, params, baseRequest } from '../helpers'
 

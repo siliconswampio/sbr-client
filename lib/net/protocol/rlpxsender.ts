@@ -1,5 +1,5 @@
 import { Sender } from './sender'
-import { ETH as Devp2pETH, LES as Devp2pLES } from '@ethereumjs/devp2p'
+import { ETH as Devp2pETH, LES as Devp2pLES } from '@sbr/devp2p'
 
 /**
  * DevP2P/RLPx protocol sender
@@ -11,7 +11,7 @@ export class RlpxSender extends Sender {
   private sender: Devp2pETH | Devp2pLES
   /**
    * Creates a new DevP2P/Rlpx protocol sender
-   * @param {Object} rlpxProtocol protocol object from @ethereumjs/devp2p
+   * @param {Object} rlpxProtocol protocol object from @sbr/devp2p
    */
   constructor(rlpxProtocol: Devp2pETH | Devp2pLES) {
     super()

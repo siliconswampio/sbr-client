@@ -1,4 +1,4 @@
-import { Transaction } from '@ethereumjs/tx'
+import { Transaction } from '@sbr/tx'
 import {
   Account,
   Address,
@@ -7,7 +7,7 @@ import {
   toBuffer,
   stripHexPrefix,
   setLengthLeft,
-} from 'ethereumjs-util'
+} from 'sbr-util'
 import { decode } from 'rlp'
 import { middleware, validators } from '../validation'
 import { INVALID_PARAMS } from '../error-code'
@@ -16,7 +16,7 @@ import type { Chain } from '../../blockchain'
 import type { EthereumClient } from '../..'
 import type { EthereumService } from '../../service'
 import type { EthProtocol } from '../../net/protocol'
-import type VM from '@ethereumjs/vm'
+import type VM from '@sbr/vm'
 
 /**
  * eth_* RPC module

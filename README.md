@@ -306,7 +306,7 @@ to help contributors better understand how the project is organized.
 **Components**
 
 - `Chain` [**In Progress**] This class represents the blockchain and is a wrapper around
-  `@ethereumjs/blockchain`. It handles creation of the data directory, provides basic blockchain operations
+  `@sbr/blockchain`. It handles creation of the data directory, provides basic blockchain operations
   and maintains an updated current state of the blockchain, including current height, total difficulty, and
   latest block.
 - `Server` This class represents a server that discovers new peers and handles incoming and dropped
@@ -400,15 +400,23 @@ To update the structure diagram files in the root folder open the `client.drawio
 **EthereumJS Ecosystem**
 
 This project will be embedded in the EthereumJS ecosystem and many submodules already exist and
-can be used within the project, have a look e.g. at [@ethereumjs/block](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/block), [@ethereumjs/vm](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/vm),
-[merkle-patricia-tree](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/trie) or the
-[@ethereumjs/devp2p](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/devp2p) implementation. Work needs to be done both within these repos and related libraries.
+can be used within the project, have a look e.g. at [@sbr/block](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/block), [@sbr/vm](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/vm),
+[sbr-merkle-patricia-tree](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/trie) or the
+[@sbr/devp2p](https://github.com/ethereumjs/ethereumjs-monorepo/tree/master/packages/devp2p) implementation. Work needs to be done both within these repos and related libraries.
 
 ## EthereumJS
 
 See our organizational [documentation](https://ethereumjs.readthedocs.io) for an introduction to `EthereumJS` as well as information on current standards and best practices.
 
 If you want to join for work or do improvements on the libraries have a look at our [contribution guidelines](https://ethereumjs.readthedocs.io/en/latest/contributing.html).
+
+## Troubleshoot
+
+If bcrypto@5.4.0 install throws error run the next command:
+
+```shell
+sudo apt-get install build-essential
+```
 
 [client-npm-badge]: https://img.shields.io/npm/v/@ethereumjs/client.svg
 [client-npm-link]: https://www.npmjs.com/package/@ethereumjs/client

@@ -1,5 +1,5 @@
 import tape from 'tape-catch'
-import { BN } from 'ethereumjs-util'
+import { BN } from 'sbr-util'
 import { Chain } from '../../../lib/blockchain'
 import { Config } from '../../../lib/config'
 import { FlowControl, LesProtocol } from '../../../lib/net/protocol'

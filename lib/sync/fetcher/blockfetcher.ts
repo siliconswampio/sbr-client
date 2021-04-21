@@ -1,4 +1,4 @@
-import { Block, BlockBodyBuffer, BlockBuffer } from '@ethereumjs/block'
+import { Block, BlockBodyBuffer, BlockBuffer } from '@sbr/block'
 import { Peer } from '../../net/peer'
 import { EthProtocolMethods } from '../../net/protocol'
 import { Job } from './types'

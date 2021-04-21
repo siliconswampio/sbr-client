@@ -2,7 +2,7 @@ import { EventEmitter } from 'events'
 import tape from 'tape-catch'
 import td from 'testdouble'
 import { Config } from '../../../lib/config'
-import { BN } from 'ethereumjs-util'
+import { BN } from 'sbr-util'
 
 tape('[HeaderFetcher]', async (t) => {
   class PeerPool extends EventEmitter {

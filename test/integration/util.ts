@@ -2,7 +2,7 @@ import { Config } from '../../lib/config'
 import { FullEthereumService, LightEthereumService } from '../../lib/service'
 import MockServer from './mocks/mockserver'
 import MockChain from './mocks/mockchain'
-import Blockchain from '@ethereumjs/blockchain'
+import Blockchain from '@sbr/blockchain'
 
 interface SetupOptions {
   location?: string

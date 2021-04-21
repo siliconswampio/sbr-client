@@ -1,4 +1,4 @@
-import { addHexPrefix, keccak, toBuffer } from 'ethereumjs-util'
+import { addHexPrefix, keccak, toBuffer } from 'sbr-util'
 import { middleware, validators } from '../validation'
 import { getClientVersion } from '../../util'
 import type { EthereumClient } from '../..'

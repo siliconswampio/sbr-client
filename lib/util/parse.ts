@@ -1,8 +1,8 @@
 import { URL } from 'url'
 import multiaddr from 'multiaddr'
-import { BlockHeader } from '@ethereumjs/block'
-import { SecureTrie as Trie } from 'merkle-patricia-tree'
-import { Account, BN, keccak, rlp, toBuffer, unpadBuffer, isHexPrefixed } from 'ethereumjs-util'
+import { BlockHeader } from '@sbr/block'
+import { SecureTrie as Trie } from 'sbr-merkle-patricia-tree'
+import { Account, BN, keccak, rlp, toBuffer, unpadBuffer, isHexPrefixed } from 'sbr-util'
 import { MultiaddrLike } from '../types'
 
 /**

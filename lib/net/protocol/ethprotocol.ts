@@ -1,8 +1,8 @@
-import { BN, bufferToInt } from 'ethereumjs-util'
-import { BlockHeader, BlockHeaderBuffer } from '@ethereumjs/block'
+import { BN, bufferToInt } from 'sbr-util'
+import { BlockHeader, BlockHeaderBuffer } from '@sbr/block'
 import { Chain } from './../../blockchain'
 import { Message, Protocol, ProtocolOptions } from './protocol'
-import { BlockBodyBuffer } from '@ethereumjs/block'
+import { BlockBodyBuffer } from '@sbr/block'
 
 interface EthProtocolOptions extends ProtocolOptions {
   /* Blockchain */

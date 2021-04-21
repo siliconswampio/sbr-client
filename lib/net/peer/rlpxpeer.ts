@@ -5,7 +5,7 @@ import {
   LES as Devp2pLES,
   Peer as Devp2pRlpxPeer,
   RLPx as Devp2pRLPx,
-} from '@ethereumjs/devp2p'
+} from '@sbr/devp2p'
 import { Protocol, RlpxSender } from '../protocol'
 import { Peer, PeerOptions } from './peer'
 import { RlpxServer } from '../server'

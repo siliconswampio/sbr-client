@@ -1,6 +1,6 @@
 import tape from 'tape-catch'
 import { Config } from '../lib/config'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 
 tape('[Config]', (t) => {
   t.test('Initialization with default parameters', (t) => {

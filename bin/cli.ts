@@ -1,7 +1,7 @@
 #!/usr/bin/env client
 
 import { Server as RPCServer } from 'jayson/promise'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { parseParams, parseMultiaddrs } from '../lib/util'
 import EthereumClient from '../lib/client'
 import { Config } from '../lib/config'
@@ -10,7 +10,7 @@ import { RPCManager } from '../lib/rpc'
 const os = require('os')
 const path = require('path')
 const fs = require('fs-extra')
-const chains = require('@ethereumjs/common/dist/chains').chains
+const chains = require('@sbr/common/dist/chains').chains
 const level = require('level')
 
 const networks = Object.entries(chains.names)

@@ -1,9 +1,9 @@
-import { BN } from 'ethereumjs-util'
+import { BN } from 'sbr-util'
 import { Peer } from '../net/peer/peer'
 import { short } from '../util'
 import { Synchronizer, SynchronizerOptions } from './sync'
 import { BlockFetcher } from './fetcher'
-import { Block } from '@ethereumjs/block'
+import { Block } from '@sbr/block'
 import { VMExecution } from './execution/vmexecution'
 
 /**

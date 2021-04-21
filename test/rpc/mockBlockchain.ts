@@ -1,5 +1,5 @@
-import { Block } from '@ethereumjs/block'
-import { bufferToHex } from 'ethereumjs-util'
+import { Block } from '@sbr/block'
+import { bufferToHex } from 'sbr-util'
 
 export function mockBlockchain(options: any = {}) {
   const txHash = Buffer.from(

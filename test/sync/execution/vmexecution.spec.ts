@@ -1,13 +1,13 @@
 import tape from 'tape-catch'
-import VM from '@ethereumjs/vm'
-import Blockchain from '@ethereumjs/blockchain'
+import VM from '@sbr/vm'
+import Blockchain from '@sbr/blockchain'
 import { Config } from '../../../lib/config'
 import { Chain } from '../../../lib/blockchain'
 import { VMExecution } from '../../../lib/sync/execution/vmexecution'
 import blocksDataMainnet from './../../testdata/blocks_mainnet.json'
 import blocksDataGoerli from './../../testdata/blocks_goerli.json'
 import testnet from './../../testdata/testnet.json'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 
 tape('[VMExecution]', async (t) => {
   t.test('Initialization', async (t) => {

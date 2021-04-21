@@ -1,11 +1,11 @@
 import tape from 'tape'
-import { BN } from 'ethereumjs-util'
+import { BN } from 'sbr-util'
 import { Config } from '../../lib/config'
 import { FullEthereumService } from '../../lib/service'
 import MockServer from './mocks/mockserver'
 import MockChain from './mocks/mockchain'
 import { destroy } from './util'
-import Blockchain from '@ethereumjs/blockchain'
+import Blockchain from '@sbr/blockchain'
 
 tape('[Integration:FullEthereumService]', async (t) => {
   async function setup(): Promise<[MockServer, FullEthereumService]> {

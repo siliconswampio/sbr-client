@@ -1,4 +1,4 @@
-import { Block } from '@ethereumjs/block'
+import { Block } from '@sbr/block'
 import { VMExecution } from '../sync/execution'
 
 /**
@@ -22,12 +22,12 @@ export async function debugCodeReplayBlock(execution: VMExecution, block: Block)
  */
 
 const level = require('level')
-import Common from '@ethereumjs/common'
-import { Block } from '@ethereumjs/block'
+import Common from '@sbr/common'
+import { Block } from '@sbr/block'
 import VM from './lib'
-import { SecureTrie as Trie } from 'merkle-patricia-tree'
+import { SecureTrie as Trie } from 'sbr-merkle-patricia-tree'
 import { DefaultStateManager } from './lib/state'
-import Blockchain from '@ethereumjs/blockchain'
+import Blockchain from '@sbr/blockchain'
 
 const main = async () => {
   const common = new Common({ chain: '${execution.config.execCommon.chainName()}', hardfork: '${

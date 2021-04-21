@@ -1,9 +1,9 @@
 import { Peer } from '../net/peer/peer'
 import { Synchronizer, SynchronizerOptions } from './sync'
 import { HeaderFetcher } from './fetcher/headerfetcher'
-import { BN } from 'ethereumjs-util'
+import { BN } from 'sbr-util'
 import { short } from '../util'
-import { BlockHeader } from '@ethereumjs/block'
+import { BlockHeader } from '@sbr/block'
 
 /**
  * Implements an ethereum light sync synchronizer

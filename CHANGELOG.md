@@ -36,7 +36,7 @@ showing the relations between the main components as well as the initialization 
   PR [#111](https://github.com/ethereumjs/ethereumjs-client/pull/111)
 - Upgraded CI provider to GitHub actions,
   PR [#119](https://github.com/ethereumjs/ethereumjs-client/pull/119)
-- Updated `ethereumjs-util` to `v7.0.2`,
+- Updated `sbr-util` to `v7.0.2`,
   PR [#129](https://github.com/ethereumjs/ethereumjs-client/pull/129)
 - Added up-to-date version of the `README`, `Outdated` notice for the project summary,
   PR [#114](https://github.com/ethereumjs/ethereumjs-client/pull/114)

@@ -1,4 +1,4 @@
-import { RLPx as Devp2pRLPx, Peer as Devp2pRLPxPeer, DPT as Devp2pDPT } from '@ethereumjs/devp2p'
+import { RLPx as Devp2pRLPx, Peer as Devp2pRLPxPeer, DPT as Devp2pDPT } from '@sbr/devp2p'
 import { RlpxPeer } from '../peer/rlpxpeer'
 import { Server, ServerOptions } from './server'
 

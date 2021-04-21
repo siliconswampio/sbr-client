@@ -1,14 +1,14 @@
 import tape from 'tape'
 import { Server as RPCServer, HttpServer } from 'jayson/promise'
-import VM from '@ethereumjs/vm'
-import Common from '@ethereumjs/common'
+import VM from '@sbr/vm'
+import Common from '@sbr/common'
 import { RPCManager as Manager } from '../../lib/rpc'
 import { getLogger } from '../../lib/logging'
 import { Config } from '../../lib/config'
 import { Chain } from '../../lib/blockchain/chain'
 import { RlpxServer } from '../../lib/net/server/rlpxserver'
 import { mockBlockchain } from './mockBlockchain'
-import type Blockchain from '@ethereumjs/blockchain'
+import type Blockchain from '@sbr/blockchain'
 import type EthereumClient from '../../lib/client'
 const request = require('supertest')
 

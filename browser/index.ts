@@ -1,4 +1,4 @@
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 
 // Blockchain
 export * from '../lib/blockchain/chain'

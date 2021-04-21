@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events'
-import { Block, BlockHeader } from '@ethereumjs/block'
-import Blockchain from '@ethereumjs/blockchain'
-import { BN, toBuffer } from 'ethereumjs-util'
+import { Block, BlockHeader } from '@sbr/block'
+import Blockchain from '@sbr/blockchain'
+import { BN, toBuffer } from 'sbr-util'
 import type { LevelUp } from 'levelup'
 import { Config } from '../config'
 

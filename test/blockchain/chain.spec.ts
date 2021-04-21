@@ -1,6 +1,6 @@
 import tape from 'tape'
-import { Block, BlockData, HeaderData } from '@ethereumjs/block'
-import { BN } from 'ethereumjs-util'
+import { Block, BlockData, HeaderData } from '@sbr/block'
+import { BN } from 'sbr-util'
 import { Chain } from '../../lib/blockchain'
 import { Config } from '../../lib/config'
 
@@ -8,7 +8,7 @@ import { Config } from '../../lib/config'
 // needed for karma-typescript bundling
 import * as util from 'util' // eslint-disable-line @typescript-eslint/no-unused-vars
 import { Buffer } from 'buffer' // eslint-disable-line @typescript-eslint/no-unused-vars
-import Blockchain from '@ethereumjs/blockchain'
+import Blockchain from '@sbr/blockchain'
 
 const config = new Config()
 
