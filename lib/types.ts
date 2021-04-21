@@ -1,6 +1,6 @@
 import multiaddr from 'multiaddr'
-import type Connection from '../../../node_modules/libp2p-interfaces/dist/src/connection/connection'
-import type { MuxedStream } from '../../../node_modules/libp2p-interfaces/dist/src/stream-muxer/types'
+import type Connection from '../node_modules/libp2p-interfaces/dist/src/connection/connection'
+import type { MuxedStream } from '../node_modules/libp2p-interfaces/dist/src/stream-muxer/types'
 
 export type Key = Buffer
 export type KeyLike = string | Key
